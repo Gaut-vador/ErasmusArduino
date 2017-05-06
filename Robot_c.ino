@@ -81,6 +81,7 @@ uint32_t lastBlockTime = 0;
 // Main loop - runs continuously after setup
 //---------------------------------------
 void loop(){ 
+
   uint16_t blocks;
   blocks = pixy.getBlocks();
 
@@ -95,6 +96,8 @@ void loop(){
     motors.setRightSpeed(0);
     ScanForBlocks();
   }
+  
+  
 }
 
 int oldX, oldY, oldSignature;

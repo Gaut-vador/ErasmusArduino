@@ -9,3 +9,4 @@ This project is the subject of an internship of 3 months in Greece with the ERAS
 It's made by Gauthier PIRLET and Nathan WAETERS.
 
 Some pictures of the robot are in the folder "data".
+The libraries you may need are in the "libraries" folder.
